@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.about {
+  display: flex;
+  background: #fff;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.profile {
+  flex: 1;
+  padding: 20px;
+}
+
+.profile img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.skill {
+  margin-top: 20px;
+}
+
+.bar {
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 100%;
+  background: #007bff;
+}
+
+.progress.html { width: 85%; }
+.progress.css { width: 75%; }
+.progress.php { width: 50%; }
+.progress.js { width: 90%; }
+
+.about-me {
+  flex: 2;
+  padding: 20px;
+}
+
+.about-me h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.about-me p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+  </style>
+  <meta charset="UTF-8">
+  <title>DevFolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DevFolio</h1>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">SERVICES</a>
+      <a href="#">WORK</a>
+      <a href="#">BLOG</a>
+      <a href="#">CONTACT</a>
+    </nav>
+  </header>
+
+  <section class="about">
+    <div class="profile">
+      <img src="images/site PS.jpg" alt="profile picture">
+      <a href="images/site PS.jpg"></a>
+      <p><strong>Name:</strong> Benyamen Massoud</p>
+      <p><strong>Profile:</strong> Surveyor </p>
+      <p><strong>Email:</strong> benyamenmassoud919@gmail.com</p>
+      <p><strong>Phone:</strong> 01289192652</p>
+      <p><strong> Age :</strong> 21</p>
+      <h3>Skill a7la msa 3lek </h3>
+      <div class="skill">
+        <p>HTML 85%</p>
+        <div class="bar"><div class="progress html"></div></div>
+        <p>CSS3 75%</p>
+        <div class="bar"><div class="progress css"></div></div>
+        <p>PHP 50%</p>
+        <div class="bar"><div class="progress php"></div></div>
+        <p>JAVASCRIPT 90%</p>
+        <div class="bar"><div class="progress js"></div></div>
+      </div>
+    </div>
+
+    <div class="about-me">
+      <h2>About me</h2>
+      <p> a7la msa 3la kol ragel gd3❤️😍 </p>
+      <p> w a7la msa 3lek ya b4mhnds A.Abo bakr 😂❤️</p>
+      <p>w ze m be2ol andro wl3aaaaaaaaaana 😂😂</p>
+    </div>
+  </section>
+</body>
+</html>
